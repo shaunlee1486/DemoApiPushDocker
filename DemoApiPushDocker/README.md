@@ -5,3 +5,6 @@
 # docker compose
 https://docs.docker.com/compose/compose-file/build/
 https://docs.docker.com/compose/reference/
+
+1. docker-compose up --build -d
+2. docker-compose down

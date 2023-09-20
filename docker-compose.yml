@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  demoapipushdocker:
+    image: ${DOCKER_REGISTRY-}demoapipushdocker
+    build:
+      context: .
+      dockerfile: DemoApiPushDocker/Dockerfile
